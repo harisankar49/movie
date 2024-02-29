@@ -1,0 +1,9 @@
+<form method="post" enctype="multipart/form-data">
+
+    {% csrf_token %}
+    <!-- calling forms from update-function here-->
+    {{form.as_p}}
+    <input type="submit" value="Update">
+
+
+</form>
